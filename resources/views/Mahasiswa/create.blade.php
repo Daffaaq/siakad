@@ -38,6 +38,25 @@
                         <label for="Jurusan">Jurusan</label>
                         <input type="Jurusan" name="Jurusan" class="form-control" id="Jurusan"aria-describedby="Jurusan">
                     </div>
+                     <div class="form-group">
+                            <label for="Jenis_Kelamin">Jenis Kelamin</label> 
+                            <select name="Jenis_Kelamin" aria-describedby="Jenis_Kelamin" class="form-control"  id="Jenis_Kelamin">
+                                <option value="Laki-laki" selected>Laki-Laki</option>
+                                <option value="Perempuan" selected>Perempuan</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="Email">Email</label> 
+                            <input type="Email" name="Email" class="form-control" id="Email"  aria-describedby="Email" > 
+                        </div>
+                        <div class="form-group">
+                            <label for="Alamat">Alamat</label> 
+                            <textarea name="Alamat" class="form-control" id="Alamat"  aria-describedby="Alamat" > </textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="Tanggal_Lahir">Tanggal Lahir</label> 
+                            <input type="date" name="Tanggal_Lahir" class="form-control" id="Tanggal_Lahir" aria-describedby="Tanggal_Lahir" > 
+                        </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
