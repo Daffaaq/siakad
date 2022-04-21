@@ -13,6 +13,7 @@
                     <li class="list-group-item"><b>Nama: </b>{{$Mahasiswa->nama}}</li>
                     <li class="list-group-item"><b>Kelas: </b>{{$Mahasiswa->kelas->nama_kelas}}</li>
                     <li class="list-group-item"><b>Jurusan: </b>{{$Mahasiswa->jurusan}}</li>
+                    <li class="list-group-item"><b>Foto: <img width="50px" src="{{ asset('storage/' . $Mahasiswa->foto)}}" alt="" srcset=""></li>
                     <!-- <li class="list-group-item"><b>Jenis Kelamin: </b>{{$Mahasiswa->jenis_kelamin}}</li>
                     <li class="list-group-item"><b>Email: </b>{{$Mahasiswa->email}}</li>
                     <li class="list-group-item"><b>Alamat: </b>{{$Mahasiswa->alamat}}</li>

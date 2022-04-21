@@ -15,5 +15,6 @@ use Illuminate\Http\Request;
 |
 */
 
+Route::get('nilai/{nim}/cetak', [MahasiswaController::class, 'cetak'])->name('cetak');
 Route::resource('mahasiswa', MahasiswaController::class);
 Route::get('nilai/{nim}',[MahasiswaController::class,'nilai'])->name('nilai');
